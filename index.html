@@ -1,45 +1,106 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Biodata Titis</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    
-</head>
-    <body>
-        <ul class="navbar">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="portofolio.html">Portofolio</a></li>
-        </ul>
-          
-        <h2>Titis Esti Rahayu</h2>
-        <img src="titis.jpg" width="190" height="240">
-        <h3>Tentang Saya</h3>
-        <p>Saya Titis Esti Rahayu, mahasiswa semester 5 program studi Teknologi Rekayasa Perangkat Lunak dari Politeknik Negeri Banyuwangi. 
-        Saya Memiliki pengalaman sebagai Staf Ahli Kuangan dalam Badan Eksekutif Mahasiswa di POLIWANGI. 
-        Saya mampu bekerja secara tim maupun individu.</p>
-        <h3>Keahlian Saya</h3>
-        <ol>
-            <li>Microsoft Words</li>
-            <li>Design UI</li>
-            <li>Figma</li>
-            <li>Communication Skills</li>
-            <li>Team Work</li>
-        </ol>
-        <h3>Pendidikan Saya</h3>
-        <ul>
-            <li>2013-2017 SMP Negeri 1 Srono</li>
-            <li>2017-2020 SMA Negeri 2 Taruna Bhayangkara</li>
-            <li>2020-Sekarang Politeknik Negeri Banyuwangi</li>
-        </ul>
-        <h3>Kontak Saya</h3>
-        <p><a href="https://www.instagram.com/titisesti_/">Instagram</a></p>
-        <p><a href="https://www.facebook.com/titis.e.rahyu">Facebook</a></p>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portofolio | Titis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  </head>
 
-        <p>Untuk lebih lengkapnya, silahkan buka:
-            <a href="portofolio.html">Portofolio Titis</a>
-        </p>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link fw-bolder text-dark" aria-current="page" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder text-dark" aria-current="page" href="#">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bolder text-dark" aria-current="page" href="#">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    </body>
+      <!-- hero -->
+    <div id="me" class="container d-flex  flex-column align-items-center justify-content-center">
+        <img src="./assets/image/me.jpg" class="me rounded-circle" alt="">
+        <h1 class="title fw-bold">Titis Esti Rahayu</h1>
+        <p class="subtitle">Website Designer</p>
+        <i class="bi bi-arrow-down"></i>
+    </div>
+
+    <!-- about me -->
+    <div class="container">
+        <h2 class="text-center mb-3">About Me</h2>
+        <div class="row">
+            <div class="col-6">
+                <img src="./assets/image/about.jpg" class="shadow rounded w-100" alt="">
+            </div>
+            <div class="col-6">
+                <p class="text-about text-secondary lh-lg">Saya Titis Esti Rahayu, mahasiswa semester 5 program studi Teknologi Rekayasa Perangkat Lunak dari Politeknik Negeri Banyuwangi. 
+                    Saya Memiliki pengalaman sebagai Staf Ahli Kuangan dalam Badan Eksekutif Mahasiswa di POLIWANGI. 
+                    Saya mampu bekerja secara tim maupun individu.</p>
+            </div>
+        </div> 
+    </div>
+
+    <!-- portofolio -->
+    <div class="container">
+        <h2 class="text-center mb-3"> My Skills </h2>
+        <div class="row">
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/skill-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Design</h5>
+                      <p class="card-text">Istilah umum yang digunakan untuk mencakup bagaimana isi web konten ditampilkan, (berupa hypertext)</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/skill-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">PHP</h5>
+                      <p class="card-text">Bahasa skrip dengan fungsi umum yang terutama digunakan untuk pengembangan web.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/skill-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Project Management</h5>
+                      <p class="card-text">proses pengelolaan sumber daya menyelesaikan proyek sesuai dengan parameter yang telah disepakati perusahaan.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <img src="./assets/image/skill-4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Communication Skill</h5>
+                      <p class="card-text">keterampilan komunikasi yang wajib dimiliki agar kamu bisa membangun dan membina hubungan di mana saja.</p>
+                      <a href="#" class="btn btn-primary w-100">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
